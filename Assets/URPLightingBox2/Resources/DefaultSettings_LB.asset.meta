@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2b64b2bb532148349a0a4043a2fda6d4
+timeCreated: 1497544422
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181550
+  packageName: URP Lighting Box 2
+  packageVersion: 1.3.2
+  assetPath: Assets/URPLightingBox2/Resources/DefaultSettings_LB.asset
+  uploadId: 763567

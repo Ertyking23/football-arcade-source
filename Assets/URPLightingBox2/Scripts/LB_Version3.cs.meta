@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7321d4dad503d104aaf0eb6103f66be9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181550
+  packageName: URP Lighting Box 2
+  packageVersion: 1.3.2
+  assetPath: Assets/URPLightingBox2/Scripts/LB_Version3.cs
+  uploadId: 763567

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 109d6a8186967f341bb836ca2a8bc30e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181550
+  packageName: URP Lighting Box 2
+  packageVersion: 1.3.2
+  assetPath: Assets/URPLightingBox2/Skybox/HDRI/Skybox Materials/HDRI_Skybox_18.mat
+  uploadId: 763567

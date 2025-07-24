@@ -1,0 +1,355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7678380240379234039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 658598322690880294}
+  - component: {fileID: 8287888886940370657}
+  - component: {fileID: 339157032389549941}
+  - component: {fileID: 8542018519736943272}
+  - component: {fileID: 3369121625894549726}
+  - component: {fileID: 1757610228327786326}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &658598322690880294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7678380240379234039}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &8287888886940370657
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7678380240379234039}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &339157032389549941
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7678380240379234039}
+  m_Enabled: 1
+--- !u!114 &8542018519736943272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7678380240379234039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a276559de411004788564ebabe6f864, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nowPlayingText: {fileID: 0}
+  songInfoBox: {fileID: 0}
+  songTitleText: {fileID: 0}
+  artistNameText: {fileID: 0}
+  albumArtImage: {fileID: 0}
+  musicClips:
+  - {fileID: 8300000, guid: f30380e7752672e40a9ebfb2e2a51c06, type: 3}
+  - {fileID: 8300000, guid: edb1cf83fe29ec84f882cd624bccd2d5, type: 3}
+  - {fileID: 8300000, guid: 9e876a20a47545b4088bc2053fad6536, type: 3}
+  - {fileID: 8300000, guid: 4bdeb092acb95494bb1b1a077d86b8c3, type: 3}
+  - {fileID: 8300000, guid: 202889d84345f6f4294f7e247e10c74e, type: 3}
+  - {fileID: 8300000, guid: d3857a9feeda0f748947c0626c605450, type: 3}
+  - {fileID: 8300000, guid: 648d1295ffc4ea64a8faaaaf4cb2366d, type: 3}
+  - {fileID: 8300000, guid: d5af5d36b1d7dbd4989615285ded5413, type: 3}
+  - {fileID: 8300000, guid: 3af774530cffb194cb1585a5e9ae80e6, type: 3}
+  songs:
+  - clip: {fileID: 8300000, guid: f30380e7752672e40a9ebfb2e2a51c06, type: 3}
+    artistName: Xythe
+    songName: Fight For Your Life
+    albumArt: {fileID: 21300000, guid: 84f0a022845e585478f0ed17b19a53aa, type: 3}
+  - clip: {fileID: 8300000, guid: edb1cf83fe29ec84f882cd624bccd2d5, type: 3}
+    artistName: Frankum
+    songName: Elextro Bass X1
+    albumArt: {fileID: 21300000, guid: 29b72a729d9164d4d8cfeb500f4e434e, type: 3}
+  - clip: {fileID: 8300000, guid: 9e876a20a47545b4088bc2053fad6536, type: 3}
+    artistName: Georgke
+    songName: Sunday Acid Jam
+    albumArt: {fileID: 21300000, guid: 063499d2aefcfc248b20c9225d043e3f, type: 3}
+  - clip: {fileID: 8300000, guid: 4bdeb092acb95494bb1b1a077d86b8c3, type: 3}
+    artistName: TripJazz
+    songName: Sohudahe
+    albumArt: {fileID: 21300000, guid: d2e1008cebdb44d4fb10cf87a54b701a, type: 3}
+  - clip: {fileID: 8300000, guid: 202889d84345f6f4294f7e247e10c74e, type: 3}
+    artistName: Doctor Dreamchip
+    songName: 2018-09-05
+    albumArt: {fileID: 21300000, guid: c147439dc440a2f4998058caaa0a9237, type: 3}
+  - clip: {fileID: 8300000, guid: d3857a9feeda0f748947c0626c605450, type: 3}
+    artistName: Doctor Dreamchip
+    songName: Arturia Acid Jam
+    albumArt: {fileID: 21300000, guid: c147439dc440a2f4998058caaa0a9237, type: 3}
+  - clip: {fileID: 8300000, guid: 648d1295ffc4ea64a8faaaaf4cb2366d, type: 3}
+    artistName: Plasterbrain
+    songName: Rusted Maid
+    albumArt: {fileID: 21300000, guid: 89560a67ea56d1e40a0cba2c1401ff5b, type: 3}
+  - clip: {fileID: 8300000, guid: d5af5d36b1d7dbd4989615285ded5413, type: 3}
+    artistName: Carnotaurus Team
+    songName: 9 Soundtrack
+    albumArt: {fileID: 21300000, guid: 24feca29ea1887b49b447c229480851e, type: 3}
+  - clip: {fileID: 8300000, guid: 3af774530cffb194cb1585a5e9ae80e6, type: 3}
+    artistName: BaDoink
+    songName: Fire It Up
+    albumArt: {fileID: 21300000, guid: 34e06e3493d378740b6f8cc181911073, type: 3}
+  musicVolume: 1
+  currentTrack: 7
+--- !u!82 &3369121625894549726
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7678380240379234039}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f30380e7752672e40a9ebfb2e2a51c06, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &1757610228327786326
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7678380240379234039}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d5af5d36b1d7dbd4989615285ded5413, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

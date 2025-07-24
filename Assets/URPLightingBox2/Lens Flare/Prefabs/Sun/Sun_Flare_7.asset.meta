@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c8732ab59f08e434a9cb895cb5d3fc34
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181550
+  packageName: URP Lighting Box 2
+  packageVersion: 1.3.2
+  assetPath: Assets/URPLightingBox2/Lens Flare/Prefabs/Sun/Sun_Flare_7.asset
+  uploadId: 763567

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a7a25c7704411b2458c48d6ed2569012
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181550
+  packageName: URP Lighting Box 2
+  packageVersion: 1.3.2
+  assetPath: Assets/URPLightingBox2/Lens Flare/Prefabs/Point/Point_Light_Flare_7.asset
+  uploadId: 763567

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: eb1d7c717774dd34d8eb2258e5ecea7c
+timeCreated: 1497544422
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181550
+  packageName: URP Lighting Box 2
+  packageVersion: 1.3.2
+  assetPath: Assets/URPLightingBox2/Sample/Profiles/Lighting_Profile_Test_Scene_1.asset
+  uploadId: 763567

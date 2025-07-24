@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 58faabe9dd4444a40863726a0cf5ee59
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181550
+  packageName: URP Lighting Box 2
+  packageVersion: 1.3.2
+  assetPath: Assets/URPLightingBox2/Resources/Default_Volume_Profile.asset
+  uploadId: 763567

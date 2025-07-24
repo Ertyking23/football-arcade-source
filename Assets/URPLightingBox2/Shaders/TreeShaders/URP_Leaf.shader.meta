@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b1a23cbbe10211f419cd20062ae10ce2
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181550
+  packageName: URP Lighting Box 2
+  packageVersion: 1.3.2
+  assetPath: Assets/URPLightingBox2/Shaders/TreeShaders/URP_Leaf.shader
+  uploadId: 763567

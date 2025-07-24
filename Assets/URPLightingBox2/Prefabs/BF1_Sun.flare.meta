@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 70ff7d98b27dd54458e51a95f7984da3
+timeCreated: 1502320564
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181550
+  packageName: URP Lighting Box 2
+  packageVersion: 1.3.2
+  assetPath: Assets/URPLightingBox2/Prefabs/BF1_Sun.flare
+  uploadId: 763567

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 400b84e0126fe3a46b72a538c28e725a
+timeCreated: 1504466597
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181550
+  packageName: URP Lighting Box 2
+  packageVersion: 1.3.2
+  assetPath: Assets/URPLightingBox2/Textures/Grass/Materials/GrassAlbedoAlpha.mat
+  uploadId: 763567

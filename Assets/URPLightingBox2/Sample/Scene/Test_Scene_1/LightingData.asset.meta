@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9a59eae0cd079514b8da00e6cf4fcecf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181550
+  packageName: URP Lighting Box 2
+  packageVersion: 1.3.2
+  assetPath: Assets/URPLightingBox2/Sample/Scene/Test_Scene_1/LightingData.asset
+  uploadId: 763567

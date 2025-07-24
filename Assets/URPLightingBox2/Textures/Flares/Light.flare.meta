@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8c5be9fd17b51b9439c88408fdf86338
+timeCreated: 1486627105
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181550
+  packageName: URP Lighting Box 2
+  packageVersion: 1.3.2
+  assetPath: Assets/URPLightingBox2/Textures/Flares/Light.flare
+  uploadId: 763567
