@@ -58,9 +58,9 @@ MonoBehaviour:
     fieldSelectSequence: 0
     maxAiDifficulty: 2
   - id: log medium
-    displayName: League of 6 Teams
+    displayName: League of 12 Teams
     type: 1
-    maxTeams: 6
+    maxTeams: 12
     numFaceEachOther: 2
     humansInSameGroupChance: 10
     humansInSameMatchChance: 10

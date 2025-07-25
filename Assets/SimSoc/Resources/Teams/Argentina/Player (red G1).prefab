@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6e9b3fdb518dc8479ff910a9ee8837c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: italy g1
+  id: arg g1
   firstName: 
   lastName: 
   preferredName: 
@@ -118,7 +118,7 @@ MonoBehaviour:
   positionProperties:
   - position: 3
     ai: {fileID: 0}
-  meshChildOrPrefab: {fileID: 100028, guid: 6c7b86499329c1c44a817fec1dd1a816, type: 3}
+  meshChildOrPrefab: {fileID: 100028, guid: d962192a0eb54bf47ab81e2bbd402479, type: 3}
   meshOffsetPosition: {x: 0, y: 0, z: 0}
   meshOffsetRotation: {x: 0, y: 0, z: 0}
   ballCollider: {fileID: 6593614}

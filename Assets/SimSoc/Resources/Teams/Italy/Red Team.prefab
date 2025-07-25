@@ -106,11 +106,11 @@ MonoBehaviour:
   resultIcon: {fileID: 21300000, guid: cd9ec5eb7df34634099be8adc4e7057a, type: 3}
   halfTimeIcon: {fileID: 0}
   playerPrefabs:
-  - {fileID: 11427922, guid: cc77af20af22b144296734344e1e40c4, type: 3}
-  - {fileID: 11427922, guid: 3a14e739d1c2c7b4aa4e2845b4ceeb3b, type: 3}
-  - {fileID: 11427922, guid: 1edabcecb6be793459820cccfc3bf67b, type: 3}
-  - {fileID: 11427922, guid: 21c8493911d2a5246905c6a5cb4a48c2, type: 3}
-  - {fileID: 11427922, guid: f1b7cd480c1bcdc438a2abe2dfe5adaf, type: 3}
+  - {fileID: 11427922, guid: 366727731a03b7a409fa64dff9252ebf, type: 3}
+  - {fileID: 11427922, guid: 01f9a2b5538477b44876de50fe150113, type: 3}
+  - {fileID: 11427922, guid: e6014c683eb11a947a49c6b4cd7ffe36, type: 3}
+  - {fileID: 11427922, guid: c931ab0641d948f4da2ba1e00ab58879, type: 3}
+  - {fileID: 11427922, guid: 8d0f6f0a89374e242bca0fd83e4336c0, type: 3}
   fakeShadowPrefab: {fileID: 0}
 --- !u!1 &152784
 GameObject:

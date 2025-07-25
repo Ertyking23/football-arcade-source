@@ -105,6 +105,13 @@ MonoBehaviour:
     shortName: Ita
     name3Letters: Ita
     homeFieldId: euro
+  - path: Teams/Jamaica/Brown Team
+    id: jamaica
+    teamName: Jamaica
+    preferredName: The Reggae Boyz
+    shortName: Jam
+    name3Letters: Jam
+    homeFieldId: red
   - path: Teams/Orange Team/Orange Team
     id: orange
     teamName: Netherlands
@@ -149,7 +156,7 @@ MonoBehaviour:
     homeFieldId: red
   players:
   - path: Teams/Argentina/Player (red G1)
-    id: italy g1
+    id: arg g1
     firstName: 
     lastName: 
     preferredName: 
@@ -160,7 +167,7 @@ MonoBehaviour:
     jerseyNumber: 0
     headHeight: 1.8
   - path: Teams/Argentina/Player (red P1)
-    id: italy p1
+    id: arg p1
     firstName: 
     lastName: 
     preferredName: 
@@ -171,7 +178,7 @@ MonoBehaviour:
     jerseyNumber: 0
     headHeight: 1.8
   - path: Teams/Argentina/Player (red P2)
-    id: italy p2
+    id: arg p2
     firstName: 
     lastName: 
     preferredName: 
@@ -182,7 +189,7 @@ MonoBehaviour:
     jerseyNumber: 0
     headHeight: 1.8
   - path: Teams/Argentina/Player (red P3)
-    id: italy p3
+    id: arg  p3
     firstName: 
     lastName: 
     preferredName: 
@@ -193,7 +200,7 @@ MonoBehaviour:
     jerseyNumber: 0
     headHeight: 1.8
   - path: Teams/Argentina/Player (red P4)
-    id: italy p4
+    id: arg p4
     firstName: 
     lastName: 
     preferredName: 
@@ -422,6 +429,61 @@ MonoBehaviour:
     gender: 1
     age: 0
     jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Jamaica/Player (brown G1)
+    id: jamaica g1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 1
+    headHeight: 1.8
+  - path: Teams/Jamaica/Player (brown P1)
+    id: jamaica p1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 21
+    headHeight: 1.8
+  - path: Teams/Jamaica/Player (brown P2)
+    id: jamaica p2
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 4
+    headHeight: 1.8
+  - path: Teams/Jamaica/Player (brown P3)
+    id: jamaica p3
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 7
+    headHeight: 1.8
+  - path: Teams/Jamaica/Player (brown P4)
+    id: jamaica p4
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 9
     headHeight: 1.8
   - path: Teams/Orange Team/Player (orange G1)
     id: orange g1

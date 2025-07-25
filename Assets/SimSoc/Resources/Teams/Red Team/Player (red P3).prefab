@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   accessories:
-  - accessoryPrefab: {fileID: 100000, guid: 0da9a9c9c251dc14fb39301c35670d31, type: 3}
+  - accessoryPrefab: {fileID: 100000, guid: 97a06cac89c60684dadd78b03311e306, type: 3}
     attachTo: head
     attachOffset: {x: -0.6583287, y: -0.000965661, z: 0.4367388}
     attachRotation: {x: 0, y: 270, z: 270}
