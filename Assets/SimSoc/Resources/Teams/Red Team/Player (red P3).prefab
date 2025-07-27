@@ -227,11 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09838135d9b892d4ab49522d0687384b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  accessories:
-  - accessoryPrefab: {fileID: 100000, guid: 97a06cac89c60684dadd78b03311e306, type: 3}
-    attachTo: head
-    attachOffset: {x: -0.6583287, y: -0.000965661, z: 0.4367388}
-    attachRotation: {x: 0, y: 270, z: 270}
+  accessories: []
 --- !u!1 &129780
 GameObject:
   m_ObjectHideFlags: 0

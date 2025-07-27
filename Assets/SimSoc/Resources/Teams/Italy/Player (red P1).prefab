@@ -200,7 +200,7 @@ MonoBehaviour:
     ai: {fileID: 0}
   - position: 2
     ai: {fileID: 0}
-  meshChildOrPrefab: {fileID: 100028, guid: aeb08728359bd1946b1fac9d939e68c7, type: 3}
+  meshChildOrPrefab: {fileID: 100028, guid: 093ead456bb6d5142a3e0463e4fbeae9, type: 3}
   meshOffsetPosition: {x: 0, y: 0, z: 0}
   meshOffsetRotation: {x: 0, y: 0, z: 0}
   ballCollider: {fileID: 6559692}

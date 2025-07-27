@@ -91,6 +91,20 @@ MonoBehaviour:
     shortName: Bel
     name3Letters: Bel
     homeFieldId: wc
+  - path: Teams/Colombia/Red Team
+    id: colombia
+    teamName: Colombia
+    preferredName: Los Caffeteros
+    shortName: Col
+    name3Letters: Col
+    homeFieldId: red
+  - path: Teams/Croatia/Red Team
+    id: croatia
+    teamName: Croatia
+    preferredName: Blazers
+    shortName: Cro
+    name3Letters: Cro
+    homeFieldId: euro
   - path: Teams/Green Team/Green Team
     id: green
     teamName: Algeria
@@ -147,6 +161,20 @@ MonoBehaviour:
     shortName: Mor
     name3Letters: Mor
     homeFieldId: sportsground
+  - path: Teams/Spain/Red Team
+    id: spain
+    teamName: Spain
+    preferredName: La Roja
+    shortName: Spa
+    name3Letters: Spa
+    homeFieldId: wc
+  - path: Teams/USA/Red Team
+    id: usa
+    teamName: USA
+    preferredName: The star and stripes
+    shortName: Usa
+    name3Letters: Usa
+    homeFieldId: blue
   - path: Teams/Yellow Team/Yellow Team
     id: yellow
     teamName: Brazil
@@ -319,6 +347,116 @@ MonoBehaviour:
     gender: 1
     age: 0
     jerseyNumber: 9
+    headHeight: 1.8
+  - path: Teams/Colombia/Player (red G1)
+    id: red g1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Colombia/Player (red P1)
+    id: red p1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Colombia/Player (red P2)
+    id: red p2
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Colombia/Player (red P3)
+    id: red p3
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Colombia/Player (red P4)
+    id: red p4
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Croatia/Player (red G1)
+    id: red g1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Croatia/Player (red P1)
+    id: red p1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Croatia/Player (red P2)
+    id: red p2
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Croatia/Player (red P3)
+    id: red p3
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Croatia/Player (red P4)
+    id: red p4
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
     headHeight: 1.8
   - path: Teams/Green Team/Player (green G1)
     id: green g1
@@ -750,6 +888,116 @@ MonoBehaviour:
     jerseyNumber: 0
     headHeight: 1.8
   - path: Teams/Red Team/Player (red P4)
+    id: red p4
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Spain/Player (red G1)
+    id: red g1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Spain/Player (red P1)
+    id: red p1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Spain/Player (red P2)
+    id: red p2
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Spain/Player (red P3)
+    id: red p3
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Spain/Player (red P4)
+    id: red p4
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/USA/Player (red G1)
+    id: red g1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/USA/Player (red P1)
+    id: red p1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/USA/Player (red P2)
+    id: red p2
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/USA/Player (red P3)
+    id: red p3
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/USA/Player (red P4)
     id: red p4
     firstName: 
     lastName: 
