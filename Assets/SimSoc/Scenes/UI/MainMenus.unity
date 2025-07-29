@@ -6888,24 +6888,19 @@ MonoBehaviour:
   artistNameText: {fileID: 5452015012780568582}
   albumArtImage: {fileID: 4835364911825926389}
   musicClips:
-  - {fileID: 8300000, guid: 4babeddfb534b704bb81a2160aeea835, type: 3}
-  - {fileID: 8300000, guid: e27ff319b78dd264abb1c3ac9d6f41f3, type: 3}
-  - {fileID: 8300000, guid: 27fec56f7adeafe4981bfd584d9be4fb, type: 3}
+  - {fileID: 8300000, guid: d4397f4bf1515164ba876397f9ac2882, type: 3}
+  - {fileID: 8300000, guid: 71109052b83e5f745802ac5a0ee63a72, type: 3}
   - {fileID: 8300000, guid: 051ac905efb16584c91a9696fb73ff7a, type: 3}
   - {fileID: 8300000, guid: 900e9c36d2416564aac718f690db9dd1, type: 3}
   songs:
-  - clip: {fileID: 8300000, guid: 4babeddfb534b704bb81a2160aeea835, type: 3}
-    artistName: Konami
-    songName: Face 2 Face
-    albumArt: {fileID: 21300000, guid: e3c01a8479ee4bf4ea50f51cb0893583, type: 3}
-  - clip: {fileID: 8300000, guid: e27ff319b78dd264abb1c3ac9d6f41f3, type: 3}
-    artistName: Konami
-    songName: Existence
-    albumArt: {fileID: 21300000, guid: e3c01a8479ee4bf4ea50f51cb0893583, type: 3}
-  - clip: {fileID: 8300000, guid: 27fec56f7adeafe4981bfd584d9be4fb, type: 3}
-    artistName: Konami
-    songName: Hurts
-    albumArt: {fileID: 21300000, guid: 4e83a3855b874954b96eb7c21d01dc6b, type: 3}
+  - clip: {fileID: 8300000, guid: d4397f4bf1515164ba876397f9ac2882, type: 3}
+    artistName: Signals
+    songName: TFSui
+    albumArt: {fileID: 21300000, guid: 9e5a182190a9c4140ab7b657037513ac, type: 3}
+  - clip: {fileID: 8300000, guid: 71109052b83e5f745802ac5a0ee63a72, type: 3}
+    artistName: TFSui
+    songName: Run Forward
+    albumArt: {fileID: 21300000, guid: 361e78769299c484ea66a70b73632484, type: 3}
   - clip: {fileID: 8300000, guid: 051ac905efb16584c91a9696fb73ff7a, type: 3}
     artistName: Kevin Macleod
     songName: Ready Aim Fire
