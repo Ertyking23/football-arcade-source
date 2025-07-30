@@ -100,7 +100,7 @@ MonoBehaviour:
   preferredName: Atlas Lions
   shortName: Mor
   name3Letters: Mor
-  homeFieldId: sportsground
+  homeFieldId: wifaq
   miniMapColour: {r: 0.89705884, g: 0.16490053, b: 0.16490053, a: 1}
   hudIcon: {fileID: 21300000, guid: 7d7e3f8319bb8af4f922cc1a9fa9e29e, type: 3}
   resultIcon: {fileID: 21300000, guid: 7d7e3f8319bb8af4f922cc1a9fa9e29e, type: 3}

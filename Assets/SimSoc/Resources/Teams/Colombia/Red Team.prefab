@@ -100,7 +100,7 @@ MonoBehaviour:
   preferredName: Los Caffeteros
   shortName: Col
   name3Letters: Col
-  homeFieldId: red
+  homeFieldId: sportsground
   miniMapColour: {r: 1, g: 0.61178035, b: 0, a: 1}
   hudIcon: {fileID: 21300000, guid: 7ba74758992a23247ac667017b80ff84, type: 3}
   resultIcon: {fileID: 21300000, guid: 7ba74758992a23247ac667017b80ff84, type: 3}

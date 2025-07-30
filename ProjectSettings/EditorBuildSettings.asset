@@ -47,5 +47,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SimSoc/Scenes/Fields/sportsground.unity
     guid: ec16c8e1f7cc9b245adafeb979db972f
+  - enabled: 1
+    path: Assets/SimSoc/Scenes/Fields/wifaq.unity
+    guid: 3e6ea84a166d55f4db1084e8e6dc1661
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

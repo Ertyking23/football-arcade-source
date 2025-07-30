@@ -133,7 +133,7 @@ MonoBehaviour:
   preferredName: "Sele\xE7ao"
   shortName: Bra
   name3Letters: Bra
-  homeFieldId: red
+  homeFieldId: wifaq
   miniMapColour: {r: 0.9485294, g: 0.92313266, b: 0.02789795, a: 1}
   hudIcon: {fileID: 21300000, guid: a3b2a33168f87414189a51fca25823dc, type: 3}
   resultIcon: {fileID: 21300000, guid: a3b2a33168f87414189a51fca25823dc, type: 3}

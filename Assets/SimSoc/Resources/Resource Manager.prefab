@@ -97,7 +97,7 @@ MonoBehaviour:
     preferredName: Los Caffeteros
     shortName: Col
     name3Letters: Col
-    homeFieldId: red
+    homeFieldId: sportsground
   - path: Teams/Croatia/Red Team
     id: croatia
     teamName: Croatia
@@ -153,14 +153,14 @@ MonoBehaviour:
     preferredName: Manschaft
     shortName: Ger
     name3Letters: Ger
-    homeFieldId: euro
+    homeFieldId: wifaq
   - path: Teams/Red Team/Red Team
     id: red
     teamName: Morocco
     preferredName: Atlas Lions
     shortName: Mor
     name3Letters: Mor
-    homeFieldId: sportsground
+    homeFieldId: wifaq
   - path: Teams/Spain/Red Team
     id: spain
     teamName: Spain
@@ -181,7 +181,7 @@ MonoBehaviour:
     preferredName: "Sele\xE7ao"
     shortName: Bra
     name3Letters: Bra
-    homeFieldId: red
+    homeFieldId: wifaq
   players:
   - path: Teams/Argentina/Player (red G1)
     id: arg g1

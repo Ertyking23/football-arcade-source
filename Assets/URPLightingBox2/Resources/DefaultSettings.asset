@@ -12,37 +12,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09549af41255a3d46b8b500a63f93e23, type: 3}
   m_Name: DefaultSettings
   m_EditorClassIdentifier: 
-  mainCameraName: Main Camera
+  mainCameraName: Camera
   objectName: LightingProfile
   volumeProfile: {fileID: 11400000, guid: 58faabe9dd4444a40863726a0cf5ee59, type: 2}
   lightingMode: 0
   lightmapQuality: 2
   indirectResolution: 0
   bakedResolution: 10
-  lightSettings: 1
-  colorSpace: 1
+  lightSettings: 0
+  colorSpace: 0
   directSamples: 441
   indirectSamples: 2788
   aoIntensityDirect: 0
-  aoIntensityIndirect: 1
+  aoIntensityIndirect: 0
   aoEnabled: 0
-  aoDistance: 1
+  aoDistance: 0
   indirectBounce: 1.74
   backfaceTolerance: 0.7
-  skyBox: {fileID: 2100000, guid: d4cb2098a58ae194697b373e50fb8e03, type: 2}
-  ambientLight: 1
+  skyBox: {fileID: 2100000, guid: d9dca9ae1786c394f9e79c637aa9a7bf, type: 2}
+  ambientLight: 0
   ambientColor: {r: 0.875089, g: 0.88616097, b: 0.8962264, a: 1}
-  skyColor: {r: 1, g: 1, b: 1, a: 1}
-  skyIntensity: 1
-  equatorColor: {r: 1, g: 1, b: 1, a: 1}
+  skyColor: {r: 1, g: 0.38341936, b: 0, a: 1}
+  skyIntensity: 1.22
+  equatorColor: {r: 0.5566038, g: 0.49404696, b: 0.385947, a: 1}
   groundColor: {r: 1, g: 1, b: 1, a: 1}
   sunColor: {r: 1, g: 0.9161351, b: 0.7971698, a: 1}
-  sunIntensity: 0.83
-  sunFlare: {fileID: 12100000, guid: 70ff7d98b27dd54458e51a95f7984da3, type: 2}
+  sunIntensity: 0.87
+  sunFlare: {fileID: 12100000, guid: 1273453f6ac5e7640b48c7009ab1e77a, type: 2}
   indirectIntensity: 2.62
   fogMode: 3
   fogColor: {r: 1, g: 0.8664381, b: 0.6627451, a: 1}
-  fogIntensity: 0.0618
+  fogIntensity: 0
   linearStart: 0
   linearEnd: 36
   bIntensity: 2.23
@@ -52,32 +52,32 @@ MonoBehaviour:
   dirtIntensity: 0
   mobileOptimizedBloom: 0
   bRotation: 0
-  lightsShadow: 2
+  lightsShadow: 3
   lightProbesMode: 0
-  automaticLightmap: 1
+  automaticLightmap: 0
   dofDistance: 1
   dofFocusLength: 30
   dofAperture: 5
   exposureIntensity: 1.63
   contrastValue: 0.179
   temp: 20.4
-  colorMode: 1
+  colorMode: 0
   saturation: 0.197
   gamma: -0.05
   colorGamma: {r: 0, g: 0, b: 0, a: 1}
   colorLift: {r: 0, g: 0, b: 0, a: 1}
   lut: {fileID: 0}
-  vignetteIntensity: 0.23
-  CA_Intensity: 0.1
-  aaMode: 0
+  vignetteIntensity: 0.269
+  CA_Intensity: 0.618
+  aaMode: 2
   enabled: 0
   mbIntensity: 3.27
-  mbQuality: 0
+  mbQuality: 2
   Ambient_Enabled: 1
   Scene_Enabled: 1
   Sun_Enabled: 1
-  VL_Enabled: 0
-  Fog_Enabled: 0
+  VL_Enabled: 1
+  Fog_Enabled: 1
   DOF_Enabled: 1
   Bloom_Enabled: 1
   AA_Enabled: 1
@@ -101,4 +101,4 @@ MonoBehaviour:
   vignetteState: 1
   chromatticState: 1
   OptionsState: 0
-  LightingBoxState: 1
+  LightingBoxState: 0

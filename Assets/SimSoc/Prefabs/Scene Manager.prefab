@@ -68,3 +68,6 @@ MonoBehaviour:
   - sceneName: sportsground
     id: sportsground
     displayName: sportsground
+  - sceneName: wifaq
+    id: wifaq
+    displayName: small field

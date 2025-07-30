@@ -21,12 +21,12 @@ RenderSettings:
   m_LinearFogStart: 0
   m_LinearFogEnd: 36
   m_AmbientSkyColor: {r: 0.875089, g: 0.88616097, b: 0.8962264, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
-  m_AmbientMode: 3
+  m_AmbientEquatorColor: {r: 1, g: 1, b: 1, a: 1}
+  m_AmbientGroundColor: {r: 1, g: 1, b: 1, a: 1}
+  m_AmbientIntensity: 1.22
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: d4cb2098a58ae194697b373e50fb8e03, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: fc0a0661eaf27a64bac927be05fa911b, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 0
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 1732241634}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3313,32 +3313,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 158289697}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1113 &161744597
-LightmapParameters:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Lighting Box Medium
-  serializedVersion: 4
-  resolution: 1
-  clusterResolution: 0.5
-  irradianceBudget: 128
-  irradianceQuality: 8192
-  backFaceTolerance: 0.7
-  isTransparent: 0
-  modellingTolerance: 0.01
-  systemTag: -1
-  edgeStitching: 1
-  blurRadius: 2
-  directLightQuality: 64
-  antiAliasingSamples: 4
-  pushoff: 0.0001
-  bakedLightmapTag: -1
-  limitLightmapCount: 0
-  maxLightmapCount: 1
-  AOQuality: 256
-  AOAntiAliasingSamples: 4
 --- !u!1 &164026460
 GameObject:
   m_ObjectHideFlags: 0
@@ -17044,6 +17018,32 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4467766580757431414, guid: 62234c17961c7544982bc31529b4f095, type: 3}
+--- !u!1113 &758655782
+LightmapParameters:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lighting Box Medium
+  serializedVersion: 4
+  resolution: 1
+  clusterResolution: 0.5
+  irradianceBudget: 128
+  irradianceQuality: 8192
+  backFaceTolerance: 0.7
+  isTransparent: 0
+  modellingTolerance: 0.01
+  systemTag: -1
+  edgeStitching: 1
+  blurRadius: 2
+  directLightQuality: 64
+  antiAliasingSamples: 4
+  pushoff: 0.0001
+  bakedLightmapTag: -1
+  limitLightmapCount: 0
+  maxLightmapCount: 1
+  AOQuality: 256
+  AOAntiAliasingSamples: 4
 --- !u!64 &758867085
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39035,13 +39035,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1732241633}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.014577996, y: -0.18422054, z: 0.0027323936, w: 0.98277307}
-  m_LocalPosition: {x: -8.957641, y: 6.8218513, z: -16.984283}
+  m_LocalRotation: {x: 0.7885599, y: -0.11431443, z: -0.14448842, w: 0.5867101}
+  m_LocalPosition: {x: -8.957641, y: 63, z: -16.984283}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 63.161, y: -126.695, z: -129.209}
 --- !u!1 &1733181139
 GameObject:
   m_ObjectHideFlags: 0
@@ -39702,7 +39702,7 @@ LightingSettings:
   m_MixedBakeMode: 1
   m_LightmapsBakeMode: 0
   m_FilterMode: 1
-  m_LightmapParameters: {fileID: 161744597}
+  m_LightmapParameters: {fileID: 758655782}
   m_ExportTrainingData: 0
   m_EnableWorkerProcessBaking: 1
   m_TrainingDataDestination: TrainingData
