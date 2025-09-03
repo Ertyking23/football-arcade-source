@@ -6352,7 +6352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22462178, guid: 95e97a92ead77174f8d0ea3d34c80703, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1090.0011
+      value: 1126.9768
       objectReference: {fileID: 0}
     - target: {fileID: 22463262, guid: 95e97a92ead77174f8d0ea3d34c80703, type: 3}
       propertyPath: m_SizeDelta.x
@@ -6800,6 +6800,7 @@ GameObject:
   - component: {fileID: 805947151}
   - component: {fileID: 805947155}
   - component: {fileID: 805947156}
+  - component: {fileID: 805947157}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6930,6 +6931,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 805947149}
   m_Enabled: 1
+--- !u!114 &805947157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805947149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7917f2036bbe402418545d3fdec1f6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &829196945
 GameObject:
   m_ObjectHideFlags: 0

@@ -24,12 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101066}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11488368
 MonoBehaviour:
@@ -56,21 +57,21 @@ MonoBehaviour:
   mouseFire1: Mouse_Fire1
   mouseFire2: Mouse_Fire2
   mouseFire3: Mouse_Fire3
-  anyJoystickHorizontalAxes: JX_Horizontal
-  anyJoystickVerticalAxes: JX_Vertical
-  anyJoystickFire1: JX_Fire1
-  anyJoystickFire2: JX_Fire2
-  anyJoystickFire3: JX_Fire3
-  joystick1HorizontalAxes: J1_Horizontal
-  joystick1VerticalAxes: J1_Vertical
-  joystick1Fire1: J1_Fire1
-  joystick1Fire2: J1_Fire2
-  joystick1Fire3: J1_Fire3
-  joystick2HorizontalAxes: J2_Horizontal
-  joystick2VerticalAxes: J2_Vertical
-  joystick2Fire1: J2_Fire1
-  joystick2Fire2: J2_Fire2
-  joystick2Fire3: J2_Fire3
+  anyJoystickHorizontalAxes: JXHorizontal
+  anyJoystickVerticalAxes: JXVertical
+  anyJoystickFire1: JXFire1
+  anyJoystickFire2: JXFire2
+  anyJoystickFire3: JXFire3
+  joystick1HorizontalAxes: J1Horizontal
+  joystick1VerticalAxes: J1Vertical
+  joystick1Fire1: J1Fire1
+  joystick1Fire2: J1Fire2
+  joystick1Fire3: J1Fire3
+  joystick2HorizontalAxes: J2Horizontal
+  joystick2VerticalAxes: J2Vertical
+  joystick2Fire1: J2Fire1
+  joystick2Fire2: J2Fire2
+  joystick2Fire3: J2Fire3
   sprintTimeMax: 2
   sprintRefillDelayMax: 5
   sprintRefillSpeed: 10
