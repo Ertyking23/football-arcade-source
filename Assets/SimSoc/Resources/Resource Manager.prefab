@@ -83,7 +83,7 @@ MonoBehaviour:
     preferredName: Les Bleus
     shortName: Fra
     name3Letters: Fra
-    homeFieldId: blue
+    homeFieldId: parc
   - path: Teams/Brown Team/Brown Team
     id: brown
     teamName: Belgium
@@ -104,7 +104,7 @@ MonoBehaviour:
     preferredName: Blazers
     shortName: Cro
     name3Letters: Cro
-    homeFieldId: euro
+    homeFieldId: anfield
   - path: Teams/Green Team/Green Team
     id: green
     teamName: Algeria
@@ -118,7 +118,7 @@ MonoBehaviour:
     preferredName: Gli Azurri
     shortName: Ita
     name3Letters: Ita
-    homeFieldId: euro
+    homeFieldId: italy1
   - path: Teams/Jamaica/Brown Team
     id: jamaica
     teamName: Jamaica
@@ -139,7 +139,7 @@ MonoBehaviour:
     preferredName: Three Lions
     shortName: Eng
     name3Letters: Eng
-    homeFieldId: 5v5(2)
+    homeFieldId: anfield
   - path: Teams/Portugal/Portugal
     id: portugal
     teamName: Portugal

@@ -32,9 +32,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SimSoc/Scenes/Fields/WC.unity
     guid: 9a60d949a499a7145b05790e4dd5b20a
-  - enabled: 0
-    path: Assets/SimSoc/Scenes/Fields/WC 22.unity
-    guid: cd20b303082db45449873aff01303389
   - enabled: 1
     path: Assets/SimSoc/Scenes/Fields/Stadium.unity
     guid: e5bdcdf7b7fd02640b3beed61fe0b9dd
@@ -50,5 +47,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SimSoc/Scenes/Fields/wifaq.unity
     guid: 3e6ea84a166d55f4db1084e8e6dc1661
+  - enabled: 1
+    path: Assets/SimSoc/Scenes/Fields/Parc des Princes.unity
+    guid: 47691b097babc9346873292b34fd1cd2
+  - enabled: 1
+    path: Assets/SimSoc/Scenes/Fields/Anfield.unity
+    guid: a263e4eab8dd9064db39b4e379570334
+  - enabled: 1
+    path: Assets/SimSoc/Scenes/Fields/Field EU.unity
+    guid: baa08b715427ac74cbdf923b98cabe41
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

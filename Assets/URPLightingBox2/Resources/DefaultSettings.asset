@@ -15,8 +15,8 @@ MonoBehaviour:
   mainCameraName: Camera
   objectName: LightingProfile
   volumeProfile: {fileID: 11400000, guid: 58faabe9dd4444a40863726a0cf5ee59, type: 2}
-  lightingMode: 0
-  lightmapQuality: 2
+  lightingMode: 4
+  lightmapQuality: 3
   indirectResolution: 0
   bakedResolution: 10
   lightSettings: 0
@@ -25,11 +25,11 @@ MonoBehaviour:
   indirectSamples: 2788
   aoIntensityDirect: 0
   aoIntensityIndirect: 0
-  aoEnabled: 0
-  aoDistance: 0
+  aoEnabled: 1
+  aoDistance: 10
   indirectBounce: 1.74
   backfaceTolerance: 0.7
-  skyBox: {fileID: 2100000, guid: d9dca9ae1786c394f9e79c637aa9a7bf, type: 2}
+  skyBox: {fileID: 2100000, guid: efd1c33efd2d58340b88804268e6833f, type: 2}
   ambientLight: 0
   ambientColor: {r: 0.875089, g: 0.88616097, b: 0.8962264, a: 1}
   skyColor: {r: 1, g: 0.38341936, b: 0, a: 1}
@@ -37,7 +37,7 @@ MonoBehaviour:
   equatorColor: {r: 0.5566038, g: 0.49404696, b: 0.385947, a: 1}
   groundColor: {r: 1, g: 1, b: 1, a: 1}
   sunColor: {r: 1, g: 0.9161351, b: 0.7971698, a: 1}
-  sunIntensity: 0.87
+  sunIntensity: 1
   sunFlare: {fileID: 12100000, guid: 1273453f6ac5e7640b48c7009ab1e77a, type: 2}
   indirectIntensity: 2.62
   fogMode: 3
@@ -69,8 +69,8 @@ MonoBehaviour:
   lut: {fileID: 0}
   vignetteIntensity: 0.269
   CA_Intensity: 0.618
-  aaMode: 2
-  enabled: 0
+  aaMode: 0
+  enabled: 1
   mbIntensity: 3.27
   mbQuality: 2
   Ambient_Enabled: 1
@@ -100,5 +100,5 @@ MonoBehaviour:
   motionBlurState: 1
   vignetteState: 1
   chromatticState: 1
-  OptionsState: 0
-  LightingBoxState: 0
+  OptionsState: 1
+  LightingBoxState: 1

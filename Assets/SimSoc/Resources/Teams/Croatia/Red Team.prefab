@@ -100,7 +100,7 @@ MonoBehaviour:
   preferredName: Blazers
   shortName: Cro
   name3Letters: Cro
-  homeFieldId: euro
+  homeFieldId: anfield
   miniMapColour: {r: 0.9245283, g: 0.36196154, b: 0.36196154, a: 1}
   hudIcon: {fileID: 21300000, guid: 286962ba25d76aa4fbd983e37f81d408, type: 3}
   resultIcon: {fileID: 21300000, guid: 286962ba25d76aa4fbd983e37f81d408, type: 3}

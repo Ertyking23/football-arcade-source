@@ -71,3 +71,12 @@ MonoBehaviour:
   - sceneName: wifaq
     id: wifaq
     displayName: small field
+  - sceneName: Field EU
+    id: italy1
+    displayName: fiorentina
+  - sceneName: Anfield
+    id: anfield
+    displayName: Liverpool
+  - sceneName: Parc des Princes
+    id: parc
+    displayName: Paris
