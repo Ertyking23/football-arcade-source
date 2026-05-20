@@ -50,7 +50,7 @@ MonoBehaviour:
   preferredName: Selecao
   shortName: Por
   name3Letters: Por
-  homeFieldId: euro
+  homeFieldId: modern
   miniMapColour: {r: 0.6603774, g: 0.06579299, b: 0, a: 1}
   hudIcon: {fileID: 21300000, guid: 2dd7fc6bbc47b97438a60e0647ebd86e, type: 3}
   resultIcon: {fileID: 21300000, guid: 2dd7fc6bbc47b97438a60e0647ebd86e, type: 3}

@@ -1,0 +1,8 @@
+Model Information:
+* title:	Modern Stadium
+* source:	https://sketchfab.com/3d-models/modern-stadium-21767e058e9e4df8a1c57352611756aa
+* author:	Razny (https://sketchfab.com/razniak1910)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

@@ -49,9 +49,9 @@ MonoBehaviour:
   maxBallHeight: 30
   tournamentSettings:
   - id: log short
-    displayName: League of 6 Teams
+    displayName: League of 8 Teams
     type: 1
-    maxTeams: 6
+    maxTeams: 8
     numFaceEachOther: 2
     humansInSameGroupChance: 10
     humansInSameMatchChance: 10
@@ -84,6 +84,24 @@ MonoBehaviour:
     humansInSameMatchChance: 10
     fieldSelectSequence: 0
     maxAiDifficulty: 2
+  - id: log long
+    displayName: League of 24 teams
+    type: 1
+    maxTeams: 24
+    numFaceEachOther: 2
+    humansInSameGroupChance: 10
+    humansInSameMatchChance: 10
+    fieldSelectSequence: 0
+    maxAiDifficulty: 2
+  - id: elimination long
+    displayName: Elimination 24 Teams
+    type: 2
+    maxTeams: 24
+    numFaceEachOther: 1
+    humansInSameGroupChance: 10
+    humansInSameMatchChance: 10
+    fieldSelectSequence: 0
+    maxAiDifficulty: 2
   numPlayersPerSide: 11
   matchDifficulty: 0
   matchDuration: 2
@@ -100,7 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _id: wc8teams
-  _displayName: World Cup Of 16 Teams
+  _displayName: World Cup Of 16Teams
   _fieldSelectSequence: 0
   _maxAiDifficulty: 2
   _preferHumanRank: 1

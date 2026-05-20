@@ -1,0 +1,125 @@
+fileFormatVersion: 2
+guid: 3ecbbd7b2ca22e244a649b6ace025417
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\External\Stadiums\modern_stadium\scene.bin
+    assetPath: Assets\External\Stadiums\modern_stadium\scene.bin
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Srebro_03__wytarte_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Srebro_03__wytarte_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Beton_16_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Beton_16_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Aluminium_01__nierdzewne_9_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Aluminium_01__nierdzewne_9_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Kostka_17_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Kostka_17_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Aluminium_01__nierdzewne_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Aluminium_01__nierdzewne_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Stal_02__szorstka_1_2_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Stal_02__szorstka_1_2_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Stal_02__szorstka_1_0_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Stal_02__szorstka_1_0_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Stal_02__szorstka_1_0_specularf0.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Stal_02__szorstka_1_0_specularf0.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Stal_02__szorstka_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Stal_02__szorstka_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Stal_02__szorstka_1_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Stal_02__szorstka_1_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Beton_16_3_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Beton_16_3_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Stal_04__szczotkowana_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Stal_04__szczotkowana_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Srebro_03__wytarte_4_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Srebro_03__wytarte_4_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\auto_397_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\auto_397_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Wood_47_1_baseColor.jpeg
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Wood_47_1_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Stal_03__wytarta_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Stal_03__wytarta_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Stal_04__szczotkowana_5_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Stal_04__szczotkowana_5_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Skra_07_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Skra_07_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Wood_47_1_6_baseColor.jpeg
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Wood_47_1_6_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Color_B01_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Color_B01_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\auto_397_7_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\auto_397_7_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\auto_1_baseColor.jpeg
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\auto_1_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\auto_30_baseColor.jpeg
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\auto_30_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\auto_30_specularf0.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\auto_30_specularf0.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Trawa_03_1_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Trawa_03_1_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\auto_37_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\auto_37_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\auto_38_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\auto_38_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\Tkanina_02__pikowana_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\Tkanina_02__pikowana_baseColor.png
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\auto_413_baseColor.jpeg
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\auto_413_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\External\Stadiums\modern_stadium\textures\auto_409_baseColor.png
+    assetPath: Assets\External\Stadiums\modern_stadium\textures\auto_409_baseColor.png
+  reportItems:
+  - type: 2
+    code: 20
+    messages:
+    - KHR_materials_specular

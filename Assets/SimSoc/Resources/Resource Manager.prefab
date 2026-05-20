@@ -43,7 +43,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 479c982b9dd2ddb43b9bcde50840db6a, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::SsResourceManager
   balls:
   - path: Balls/Beach Ball
     id: beach
@@ -91,6 +91,13 @@ MonoBehaviour:
     shortName: Bel
     name3Letters: Bel
     homeFieldId: wc
+  - path: Teams/Canada/Brown Team
+    id: canada
+    teamName: Canada
+    preferredName: Les Rouges
+    shortName: Can
+    name3Letters: Can
+    homeFieldId: wc
   - path: Teams/Colombia/Red Team
     id: colombia
     teamName: Colombia
@@ -104,7 +111,21 @@ MonoBehaviour:
     preferredName: Blazers
     shortName: Cro
     name3Letters: Cro
-    homeFieldId: anfield
+    homeFieldId: modern
+  - path: Teams/Dr Congo/Congo
+    id: drc
+    teamName: Dr Congo
+    preferredName: Dr Congo
+    shortName: Drc
+    name3Letters: Drc
+    homeFieldId: 5v5
+  - path: Teams/Egypt/Brown Team
+    id: egypt
+    teamName: Egypt
+    preferredName: The Pharaohs
+    shortName: Egy
+    name3Letters: Egy
+    homeFieldId: parc
   - path: Teams/Green Team/Green Team
     id: green
     teamName: Algeria
@@ -112,20 +133,27 @@ MonoBehaviour:
     shortName: Alg
     name3Letters: Alg
     homeFieldId: 5v5
-  - path: Teams/Italy/Red Team
-    id: italy
-    teamName: Italy
-    preferredName: Gli Azurri
-    shortName: Ita
-    name3Letters: Ita
+  - path: Teams/Ivory Coast/Red Team
+    id: ivory
+    teamName: Ivory Coast
+    preferredName: The Elephants
+    shortName: Ivo
+    name3Letters: Ivo
+    homeFieldId: 5v5
+  - path: Teams/Mexico/Red Team
+    id: mexico
+    teamName: Mexico
+    preferredName: El Tri
+    shortName: Mex
+    name3Letters: Mex
     homeFieldId: italy1
-  - path: Teams/Jamaica/Brown Team
-    id: jamaica
-    teamName: Jamaica
-    preferredName: The Reggae Boyz
-    shortName: Jam
-    name3Letters: Jam
-    homeFieldId: red
+  - path: Teams/Norway/Red Team
+    id: norway
+    teamName: Norway
+    preferredName: "R\xF8de"
+    shortName: Nor
+    name3Letters: Nor
+    homeFieldId: euro
   - path: Teams/Orange Team/Orange Team
     id: orange
     teamName: Netherlands
@@ -146,7 +174,7 @@ MonoBehaviour:
     preferredName: Selecao
     shortName: Por
     name3Letters: Por
-    homeFieldId: euro
+    homeFieldId: modern
   - path: Teams/Purple Team/Purple Team
     id: purple
     teamName: Germany
@@ -161,13 +189,55 @@ MonoBehaviour:
     shortName: Mor
     name3Letters: Mor
     homeFieldId: wifaq
+  - path: Teams/Saudi Arabia/Red Team
+    id: saudi
+    teamName: Saudi Arabia
+    preferredName: Al-Akhdar
+    shortName: Sau
+    name3Letters: Sau
+    homeFieldId: blue
+  - path: Teams/Scotland/Red Team
+    id: scot
+    teamName: Scotland
+    preferredName: Tartan Army
+    shortName: Sco
+    name3Letters: Sco
+    homeFieldId: euro
+  - path: Teams/Senegal/Brown Team
+    id: senegal
+    teamName: Senegal
+    preferredName: Terranga Lions
+    shortName: Sen
+    name3Letters: Sen
+    homeFieldId: red
+  - path: Teams/South Africa/Red Team
+    id: sa
+    teamName: South Africa
+    preferredName: Bafana Bafana
+    shortName: Saf
+    name3Letters: Saf
+    homeFieldId: 5v5(2)
+  - path: Teams/South Korea/Red Team
+    id: southkorea
+    teamName: South Korea
+    preferredName: Tigers of Asia
+    shortName: Sok
+    name3Letters: Sok
+    homeFieldId: parc
   - path: Teams/Spain/Red Team
     id: spain
     teamName: Spain
     preferredName: La Roja
     shortName: Spa
     name3Letters: Spa
-    homeFieldId: wc
+    homeFieldId: euro
+  - path: Teams/Uruguay/Red Team
+    id: uruguay
+    teamName: Uruguay
+    preferredName: La Celeste
+    shortName: Uru
+    name3Letters: Uru
+    homeFieldId: italy1
   - path: Teams/USA/Red Team
     id: usa
     teamName: USA
@@ -348,6 +418,61 @@ MonoBehaviour:
     age: 0
     jerseyNumber: 9
     headHeight: 1.8
+  - path: Teams/Canada/Player (brown G1)
+    id: brown g1
+    firstName: 
+    lastName: Castylz
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 1
+    headHeight: 1.8
+  - path: Teams/Canada/Player (brown P1)
+    id: brown p1
+    firstName: 
+    lastName: Castogne
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 21
+    headHeight: 1.8
+  - path: Teams/Canada/Player (brown P2)
+    id: brown p2
+    firstName: 
+    lastName: Fayis
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 4
+    headHeight: 1.8
+  - path: Teams/Canada/Player (brown P3)
+    id: brown p3
+    firstName: Kevin
+    lastName: Da Brine
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 7
+    headHeight: 1.8
+  - path: Teams/Canada/Player (brown P4)
+    id: brown p4
+    firstName: Rom
+    lastName: Lakaka
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 9
+    headHeight: 1.8
   - path: Teams/Colombia/Player (red G1)
     id: red g1
     firstName: 
@@ -458,6 +583,116 @@ MonoBehaviour:
     age: 0
     jerseyNumber: 0
     headHeight: 1.8
+  - path: Teams/Dr Congo/Congo Player (1)
+    id: red g1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Dr Congo/Congo Player (2)
+    id: red p1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Dr Congo/Congo Player (3)
+    id: red p2
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Dr Congo/Congo Player (4)
+    id: red p3
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Dr Congo/Congo Player (5)
+    id: red p4
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Egypt/Player (brown G1)
+    id: brown g1
+    firstName: 
+    lastName: Castylz
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 1
+    headHeight: 1.8
+  - path: Teams/Egypt/Player (brown P1)
+    id: brown p1
+    firstName: 
+    lastName: Castogne
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 21
+    headHeight: 1.8
+  - path: Teams/Egypt/Player (brown P2)
+    id: brown p2
+    firstName: 
+    lastName: Fayis
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 4
+    headHeight: 1.8
+  - path: Teams/Egypt/Player (brown P3)
+    id: brown p3
+    firstName: Kevin
+    lastName: Da Brine
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 7
+    headHeight: 1.8
+  - path: Teams/Egypt/Player (brown P4)
+    id: brown p4
+    firstName: Rom
+    lastName: Lakaka
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 9
+    headHeight: 1.8
   - path: Teams/Green Team/Player (green G1)
     id: green g1
     firstName: 
@@ -513,7 +748,62 @@ MonoBehaviour:
     age: 0
     jerseyNumber: 9
     headHeight: 1.8
-  - path: Teams/Italy/Player (red G1)
+  - path: Teams/Ivory Coast/Player (red G1)
+    id: red g1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Ivory Coast/Player (red P1)
+    id: red p1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Ivory Coast/Player (red P2)
+    id: red p2
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Ivory Coast/Player (red P3)
+    id: red p3
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Ivory Coast/Player (red P4)
+    id: red p4
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Mexico/Player (red G1)
     id: italy g1
     firstName: 
     lastName: 
@@ -524,7 +814,7 @@ MonoBehaviour:
     age: 0
     jerseyNumber: 0
     headHeight: 1.8
-  - path: Teams/Italy/Player (red P1)
+  - path: Teams/Mexico/Player (red P1)
     id: italy p1
     firstName: 
     lastName: 
@@ -535,7 +825,7 @@ MonoBehaviour:
     age: 0
     jerseyNumber: 0
     headHeight: 1.8
-  - path: Teams/Italy/Player (red P2)
+  - path: Teams/Mexico/Player (red P2)
     id: italy p2
     firstName: 
     lastName: 
@@ -546,7 +836,7 @@ MonoBehaviour:
     age: 0
     jerseyNumber: 0
     headHeight: 1.8
-  - path: Teams/Italy/Player (red P3)
+  - path: Teams/Mexico/Player (red P3)
     id: italy p3
     firstName: 
     lastName: 
@@ -557,7 +847,7 @@ MonoBehaviour:
     age: 0
     jerseyNumber: 0
     headHeight: 1.8
-  - path: Teams/Italy/Player (red P4)
+  - path: Teams/Mexico/Player (red P4)
     id: italy p4
     firstName: 
     lastName: 
@@ -568,19 +858,19 @@ MonoBehaviour:
     age: 0
     jerseyNumber: 0
     headHeight: 1.8
-  - path: Teams/Jamaica/Player (brown G1)
-    id: jamaica g1
+  - path: Teams/Norway/Player (red G1)
+    id: red g1
     firstName: 
     lastName: 
     preferredName: 
     shortName: 
     name3Letters: 
-    gender: 1
+    gender: 0
     age: 0
-    jerseyNumber: 1
+    jerseyNumber: 0
     headHeight: 1.8
-  - path: Teams/Jamaica/Player (brown P1)
-    id: jamaica p1
+  - path: Teams/Norway/Player (red P1)
+    id: red p1
     firstName: 
     lastName: 
     preferredName: 
@@ -588,10 +878,10 @@ MonoBehaviour:
     name3Letters: 
     gender: 1
     age: 0
-    jerseyNumber: 21
+    jerseyNumber: 0
     headHeight: 1.8
-  - path: Teams/Jamaica/Player (brown P2)
-    id: jamaica p2
+  - path: Teams/Norway/Player (red P2)
+    id: red p2
     firstName: 
     lastName: 
     preferredName: 
@@ -599,29 +889,29 @@ MonoBehaviour:
     name3Letters: 
     gender: 1
     age: 0
-    jerseyNumber: 4
+    jerseyNumber: 0
     headHeight: 1.8
-  - path: Teams/Jamaica/Player (brown P3)
-    id: jamaica p3
+  - path: Teams/Norway/Player (red P3)
+    id: red p3
     firstName: 
     lastName: 
     preferredName: 
     shortName: 
     name3Letters: 
-    gender: 1
+    gender: 0
     age: 0
-    jerseyNumber: 7
+    jerseyNumber: 0
     headHeight: 1.8
-  - path: Teams/Jamaica/Player (brown P4)
-    id: jamaica p4
+  - path: Teams/Norway/Player (red P4)
+    id: red p4
     firstName: 
     lastName: 
     preferredName: 
     shortName: 
     name3Letters: 
-    gender: 1
+    gender: 0
     age: 0
-    jerseyNumber: 9
+    jerseyNumber: 0
     headHeight: 1.8
   - path: Teams/Orange Team/Player (orange G1)
     id: orange g1
@@ -898,6 +1188,281 @@ MonoBehaviour:
     age: 0
     jerseyNumber: 0
     headHeight: 1.8
+  - path: Teams/Saudi Arabia/Player (red G1)
+    id: red g1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Saudi Arabia/Player (red P1)
+    id: red p1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Saudi Arabia/Player (red P2)
+    id: red p2
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Saudi Arabia/Player (red P3)
+    id: red p3
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Saudi Arabia/Player (red P4)
+    id: red p4
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Scotland/Player (red G1)
+    id: red g1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Scotland/Player (red P1)
+    id: red p1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Scotland/Player (red P2)
+    id: red p2
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Scotland/Player (red P3)
+    id: red p3
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Scotland/Player (red P4)
+    id: red p4
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Senegal/Player (brown G1)
+    id: jamaica g1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 1
+    headHeight: 1.8
+  - path: Teams/Senegal/Player (brown P1)
+    id: jamaica p1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 21
+    headHeight: 1.8
+  - path: Teams/Senegal/Player (brown P2)
+    id: jamaica p2
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 4
+    headHeight: 1.8
+  - path: Teams/Senegal/Player (brown P3)
+    id: jamaica p3
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 7
+    headHeight: 1.8
+  - path: Teams/Senegal/Player (brown P4)
+    id: jamaica p4
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 9
+    headHeight: 1.8
+  - path: Teams/South Africa/Player (red G1)
+    id: red g1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/South Africa/Player (red P1)
+    id: red p1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/South Africa/Player (red P2)
+    id: red p2
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/South Africa/Player (red P3)
+    id: red p3
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/South Africa/Player (red P4)
+    id: red p4
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/South Korea/Player (red G1)
+    id: red g1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/South Korea/Player (red P1)
+    id: red p1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/South Korea/Player (red P2)
+    id: red p2
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/South Korea/Player (red P3)
+    id: red p3
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/South Korea/Player (red P4)
+    id: red p4
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
   - path: Teams/Spain/Player (red G1)
     id: red g1
     firstName: 
@@ -943,6 +1508,61 @@ MonoBehaviour:
     jerseyNumber: 0
     headHeight: 1.8
   - path: Teams/Spain/Player (red P4)
+    id: red p4
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Uruguay/Player (red G1)
+    id: red g1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Uruguay/Player (red P1)
+    id: red p1
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Uruguay/Player (red P2)
+    id: red p2
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 1
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Uruguay/Player (red P3)
+    id: red p3
+    firstName: 
+    lastName: 
+    preferredName: 
+    shortName: 
+    name3Letters: 
+    gender: 0
+    age: 0
+    jerseyNumber: 0
+    headHeight: 1.8
+  - path: Teams/Uruguay/Player (red P4)
     id: red p4
     firstName: 
     lastName: 
